@@ -1,0 +1,33 @@
+{
+  "name": "movie-challenge",
+  "version": "1.0.0",
+  "description": "- [Preámbulo](#preámbulo)\r - [Resumen del proyecto](#resumen-del-proyecto)\r - [Consideraciones generales](#consideraciones-generales)\r - [Objetivos de aprendizaje](#objetivos-de-aprendizaje)\r - [Avances necesarios](#avances-necesarios)\r - [Consideraciones técnicas](#consideraciones-técnicas)",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "htmlhint": "htmlhint src/.html test/.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "jest --verbose --coverage",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+    "start": "serve ./src"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "babel-jest": "^24.9.0",
+    "express": "^4.17.1",
+    "htmlhint": "^0.11.0",
+    "jest": "^24.9.0",
+    "opener": "^1.5.1",
+    "serve": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.19.0"
+  }
+}

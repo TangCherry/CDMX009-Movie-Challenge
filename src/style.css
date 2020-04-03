@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.size {
+    height: 70%;
+    width: 100%;
+	position: relative;
+}
+h1 {
+    text-align: center;
+    flex-flow: nowrap;
+}
+.button {
+    height: 17%;
+    width: 10%;
+    margin: 10px auto;
+    display: block;
+}
+.search {
+    text-align: right;
+    background-color: #BDBEFF;
+}
+.cositos {
+    height: 17%;
+    width: 10%;
+}
+#movieP {
+    margin-right: 70px;
+}
+#movieTitle {
+    padding: 10px 22px;
+    margin: 10px 5px;
+    border-color: #5659FC;
+    box-sizing: border-box;
+    flex-flow: nowrap;
+}
+.filter {
+    padding: 15px 25px;
+    font-size: 16px;
+}
+.filter:hover {
+    background-color: #595BFF;
+    color: white;
+}
+.container {
+    flex-wrap: nowrap;
+}
